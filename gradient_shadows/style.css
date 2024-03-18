@@ -1,0 +1,38 @@
+.box{
+  margin:10px;
+  border:1px solid black;
+  height:200px;
+  width: 400px;
+ 
+  background-image: linear-gradient(to left,black,green);
+  background-image: linear-gradient(to bottom left,black,red,blue);
+}
+
+.second{
+  border:1px solid black;
+  margin:10px;
+  height:200px;
+  width: 400px;
+  background-image: radial-gradient(circle,rgba(35, 48, 124, 0.336),green,orange);
+}
+
+.conic{
+  border:1px solid black;
+  margin:10px;
+  height:200px;
+  width: 400px;
+  background-image:conic-gradient(rgba(35, 48, 124, 0.336),green,orange);
+}
+
+.heading{
+  text-shadow:3px 3px 3px orange;
+}
+
+.box-show{
+  border:1px solid black;
+  margin:10px;
+  height:200px;
+  width: 400px;
+  background-color: blueviolet;
+  box-shadow:7px 7px 13px green,5px 5px 8px red;
+}

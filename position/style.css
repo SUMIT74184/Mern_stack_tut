@@ -1,0 +1,40 @@
+p{
+  position:static;
+}
+
+div{
+  /* we are moving the element as per our need in the web page */
+ 
+  display:inline-block;
+  height:120px;
+  width: 120px;
+  border:1px solid black;
+  background-color:blanchedalmond;
+ 
+}
+
+.div1{
+  right: 13px;
+  position: fixed;
+  /* position :realtive */
+
+  /* left:15px;
+  top:21px; */
+}
+
+.div3
+{
+  position: absolute;
+  bottom:100px;
+}
+
+.div4{
+  position:sticky;
+  top:0px;
+}
+
+.wrapper{
+  height:1000px;
+  width:100vw;
+  background-color: yellow;
+}

@@ -1,0 +1,22 @@
+.box{
+  margin:10px;
+  border:1px solid black;
+  max-height: 400px;
+  width:390px;
+  overflow:scroll;
+
+}
+
+.mydiv{
+  margin:10px;
+  min-height:100px;
+  border:1px solid black;
+}
+
+#id{
+  margin:10px;
+  border:1px solid black;
+  height: 120px;
+  overflow:auto;
+  /* add the scroll bar inside the div */
+}

@@ -1,0 +1,67 @@
+.container{
+  height: 700px;
+  border:1px solid red;
+  background-color: rgb(221, 221, 174);
+  display:grid;
+  /* grid-template-rows: 30px 150px 400px 30px;
+  grid-template-columns: auto;
+
+  grid-template-areas:"hd"
+  "side"
+  "main"
+  "ft"; */
+
+
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 250px 600px;
+
+  grid-template-areas: 
+  "hd hd hd "
+  "side  main main "
+  "ft ft ft ";
+  /* "ft ft ft ft ft ft ft ft"; */
+
+
+}
+
+
+.box{
+  border:1px solid rgb(3, 11, 3);
+  background-color: rgb(178, 242, 242);
+  /* height: 100px; hard code overhere that's why it was not following the grid
+  width: 100px; */
+  border-radius: 12px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+#header{
+  grid-area:hd;
+}
+
+#footer{
+  grid-area:ft;
+}
+
+#sidebar{
+  grid-area:side;
+}
+
+#content{
+  grid-area:main;
+}
+
+
+/* example of the gfg website
+
+        |  col1  |  col2
+    ____|________|__________
+  row1  |  hd    |   hd
+  row2  | sidebar| main
+  row3  |  ft    |  ft
+
+*/
