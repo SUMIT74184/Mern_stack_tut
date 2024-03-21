@@ -1,0 +1,63 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+.container{
+  width:100%;
+  height:500px;
+  background-color: blanchedalmond;
+  border:2px solid red;
+}
+
+.box{
+height:212px;
+width:212px;
+border:2px solid green;
+background-color: aqua;  
+border-radius: 16px;
+
+animation-name:nightangle;
+animation-duration:3s;
+/* animation-iteration-count: 4; */
+animation-iteration-count:infinite;
+animation-timing-function: ease-in;
+animation-delay:1s;
+/* animation-direction:reverse; */
+animation-fill-mode: forwards;
+
+
+}
+
+@keyframes nightangle{
+  0%{
+      width:212px;
+      background-color: aqua;
+  }
+
+  30%{
+    width:35%;
+    background-color: aquamarine;
+  }
+
+  65%{
+    width:70%;
+    background-color: blueviolet;
+  }
+
+  100%{
+    width:100%;
+    background-color: blueviolet;
+  }
+}
+
+/* @keyframes nightangle{
+  from{
+    width:212px
+  }
+
+  to{
+    width:800px;
+  }
+} */
